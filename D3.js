@@ -4,18 +4,31 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let number = 1;
+let number2 = 3;
+let number3 = 40;
+
+if (number > number2)
+console.log("Questo è il numero più grande");
+
+if (number2 > number)
+console.log("Questo è il numero più grande");
+ 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+if (number != 5);
+console.log("Not equal");
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+if (number3 / 5)
+console.log("Divisibile per 5")  
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
@@ -30,11 +43,25 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let totalShoppingCart = 75
+const shipment = 10
+if (totalShoppingCart > 50)
+console.log ('Hai diritto alla spedizione gratuita :)')
+else if (totalShoppingCart < 50)
+console.log ('Shipment amounts to: €', totalShoppingCart + shipment)
+
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
+const blackFriday = (20 * 100);
+
+if (blackFriday / totalShoppingCart < 50)
+console.log ('Shipment amounts to: €', blackFriday / totalShoppingCart + shipment)
+else if (blackFriday / totalShoppingCart < 50)
+console.log ('Hai diritto alla spedizione gratuita :)')
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
@@ -76,10 +103,14 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+
+//me.push(City, 'Toronto')
+me.city = "toronto";
+console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
