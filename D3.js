@@ -6,29 +6,36 @@
 
 let number = 1;
 let number2 = 3;
-let number3 = 40;
 
-if (number > number2)
-console.log("Questo è il numero più grande");
+if (number > number2){
+  console.log("Questo è il numero più grande", number);
+}
 
-if (number2 > number)
-console.log("Questo è il numero più grande");
+else if (number < number2) { 
+  console.log("Questo è il numero più grande", number2)
+}
+
+else{
+  console.log("I numeri sono uguali")
+}
  
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-if (number != 5);
+if (number !== 5);
 console.log("Not equal");
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-if (number3 / 5)
+if (number3 % 5 == 0)
 console.log("Divisibile per 5")  
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
