@@ -130,37 +130,71 @@
 //   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 // */
 
-const me = {
-  name: "John",
-  lastName: "Doe",
-  skills: ["javascript", "html", "css"],
-};
-
-me.push(City: "Toronto")
-console.log(me);
 
 // /* SCRIVI QUI LA TUA RISPOSTA */
+
+// const me = {
+//   nome: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"]
+// };
+
+// me.city = "Toronto"
+// console.log(me);
+
 
 // /* ESERCIZIO 12
 //   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 // */
 
 // /* SCRIVI QUI LA TUA RISPOSTA */
-
+// const me = {
+//     nome: "John",
+//     lastName: "Doe",
+//     skills: ["javascript", "html", "css"]
+//   };
+  
+//   delete me.lastName
+//   console.log(me);
+  
 // /* ESERCIZIO 13
 //   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 // */
 
 // /* SCRIVI QUI LA TUA RISPOSTA */
 
-// /* ESERCIZIO 14
-//   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
-// */
+// const me = {
+//     nome: "John",
+//     lastName: "Doe",
+//     skills: ["javascript", "html", "css"]
+//   };
+  
+// me.skills.pop();
 
-// /* SCRIVI QUI LA TUA RISPOSTA */
+//   console.log(me);
+  
+
+/* ESERCIZIO 14
+  Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
+*/
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+// let arrayVuoto = []
+
+// arrayVuoto.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+// console.log(arrayVuoto);
 
 // /* ESERCIZIO 15
 //   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 // */
 
-// /* SCRIVI QUI LA TUA RISPOSTA */
+// // /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let arrayVuoto = []
+
+// arrayVuoto.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+// arrayVuoto.splice(9, 9, 100);
+
+// console.log(arrayVuoto);
